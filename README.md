@@ -3,6 +3,7 @@ The last (good) version written in C. Install sphinxbase first.
 
 ## Getting the application built on the machine
 
+```
 Clone and install pocketsphinx (NOT as sudo)
 	Navigate to software storage directory
 		cd ~/software
@@ -17,6 +18,7 @@ Clone and install pocketsphinx (NOT as sudo)
 		sudo ldconfig
 	Check the installation
 		pocketsphinx_continuous
+```
 
 Copy the requisite model files for pocketsphinx, over ssh. On the host machine
 	`cd /home/cartheur/software/`
