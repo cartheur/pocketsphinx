@@ -19,6 +19,11 @@ Clone and install pocketsphinx (NOT as sudo)
 	Check the installation
 		pocketsphinx_continuous
 ```
+If the autogen.sh file returns a permission denied error:
+
+```
+chmod +x autogen.sh
+```
 
 Copy the requisite model files for pocketsphinx, over ssh. On the host machine
 	`cd /home/cartheur/software/`
