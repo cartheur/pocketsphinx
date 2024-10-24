@@ -1,5 +1,5 @@
 # pocketsphinx
-The last (good) version written in C. Install sphinxbase first.
+The last (good) version written in C. Install [sphinxbase](https://github.com/cartheur/sphinxbase) first.
 
 ## Getting the application built on the machine
 
