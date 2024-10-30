@@ -1,5 +1,10 @@
-# pocketsphinx
+## pocketsphinx
+
 The last (good) version written in C. Install [sphinxbase](https://github.com/cartheur/sphinxbase) first.
+
+Get the 4.0.0 code [here](https://sourceforge.net/projects/cmusphinx/files/).
+
+Read about the reasoned changes to `pocketsphinx_continuous` [here](https://cmusphinx.github.io/page3/).
 
 ## Getting the application built on the machine
 
