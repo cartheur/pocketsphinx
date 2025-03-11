@@ -35,9 +35,9 @@ A basic set of model files for pocketsphinx are included in this repo. To run a 
 
 ```
 pocketsphinx_continuous \
-    -hmm /home/cartheur/ame/software/pocketsphinx/model/hmm/en_us/en-us \
-    -dict /home/cartheur/ame/software/pocketsphinx/model/lm/en_us/cmudict-en-us.dict \
-    -lm /home/cartheur/ame/software/pocketsphinx/model/lm/en_us/en-us.lm.bin \
+    -hmm /home/cartheur/ame/software/pocketsphinx/model/en-us/en-us \
+    -dict /home/cartheur/ame/software/pocketsphinx/model/en-us/cmudict-en-us.dict \
+    -lm /home/cartheur/ame/software/pocketsphinx/model/en-us/en-us.lm.bin \
     -inmic yes
 ```
 
