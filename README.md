@@ -30,18 +30,14 @@ If the autogen.sh file returns a permission denied error:
 chmod +x autogen.sh
 ```
 
-Copy the requisite model files for pocketsphinx, over ssh. On the host machine
-	`cd /home/cartheur/software/`
-   
-Find the IP address of the remote computer, else, use the model files that come with the repository.
+A basic set of model files for pocketsphinx are included in this repo. To run a live recognition session using these models, use the following:
 
-Next, run a speech recognition session with the microphone (live)
-	
+
 ```
 pocketsphinx_continuous \
-    -hmm /home/ssoftware/pocketsphinx/model/hmm/en_us/en-us \
-    -dict /home/software/pocketsphinx/model/lm/en_us/cmudict-en-us.dict \
-    -lm /home/software/pocketsphinx/model/lm/en_us/en-us.lm.bin \
+    -hmm /home/cartheur/ame/software/pocketsphinx/model/hmm/en_us/en-us \
+    -dict /home/cartheur/ame/software/pocketsphinx/model/lm/en_us/cmudict-en-us.dict \
+    -lm /home/cartheur/ame/software/pocketsphinx/model/lm/en_us/en-us.lm.bin \
     -inmic yes
 ```
 
