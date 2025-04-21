@@ -41,4 +41,4 @@ pocketsphinx_continuous \
     -inmic yes
 ```
 
-Hit ctrl-c to quit.
+Hit `ctrl-c` to quit.
